@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    
+</head>
+
+<body class="d-flex flex-column h-100">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand font-color" href="#">Selda Seppala</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#aboutMe">About</a>
+          <a class="nav-link active" href="#sampleWork">Portfolio</a>
+          <a class="nav-link active" href="#contactSection">Contact</a>
+        </div>
+        </div>
+      </div>
+
+      <!-- social media buttons -->
+      
+      <a class="btn btn-dark bi bi-github mx-1" href="https://github.com/" target="_blank"></a>
+      <a class="btn btn-dark bi bi-linkedin mx-1" href="https://www.linkedin.com/" target="_blank"></a>
+      <a class="btn btn-dark bi bi-twitter mx-1" href="https://twitter.com/" target="_blank"></a>
+      <a class="btn btn-dark bi bi-facebook mx-1" href="https://www.facebook.com/" target="_blank"></a>
+      <a class="btn btn-dark bi bi-instagram mx-1" href="https://www.instagram.com/" target="_blank"></a>
+    </nav>
+  </header>
+  
+  <main>
+
+      <div class="contaienr heroImage">
+        <div class="row text-center introText">
+          <div class="col-4-lg col-12-md col-12-sm col-12-xs">
+          <h2>Welcome to my portfolio</h2>
+            <p>My name is Selda, (insert brief something about me)</p>
+              <a class="btn btn-light px-5 viewMyWorkBtn" href="#sampleWork">View My Work</a>
+            </div>
+        </div>
+      </div>
+
+    <section class="section-2">
+      <div class="container">
+        <div class="row pt-5">
+          <h2 id="aboutMe" class="aboutMeTitle">About Me</h2>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex">
+            <img src="./assets/images/EZZ-Studio-9578.jpg" class="img-thumbnail m-3 mx-auto" alt="profile picture" width="300px">
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 introduction">
+            <!-- <p>Hello,</p> -->
+            <p>My name is Selda, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              <p>e-mail: email@hotmail.com</p>
+              <p>Phone: xxx-xxx-xxxx</p>
+              <a class="btn btn-primary px-5 viewMyWorkBtn" href="./assets/resume/Selda Seppala_Resume.pdf" target="_blank" download>My Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-1">
+    </section>
+
+  <!-- contact section -->
+  <section class="section-3">
+    <div class="container-fluid font" id="contactSection">
+      <h2 id="sampleWork" class="sampleProjectsSection pt-5">Contact Me</h2>
+
+    <form class="d-flex flex-column px-4" action="mailto:email@hotmail.com?subject=contact me&amp;" method="post" enctype="text/plain">
+      Name<br>
+      <input class="form-control" type="text" name="name"><br>
+      Email<br>
+      <input class="form-control" type="text" name="mail"><br>
+      Message<br>
+      <textarea class="form-control" type="text" name="message" size="50"></textarea><br><br>
+      <input class="btn btn-dark mb-2" type="submit" value="Send">
+      <input class="btn btn-dark mb-2" type="reset" value="Reset">
+      </form>
+
+    </div>
+    </div>
+  </section>
+  
+      
+    </main>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
